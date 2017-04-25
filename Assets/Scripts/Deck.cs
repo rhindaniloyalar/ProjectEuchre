@@ -1,15 +1,40 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿/****************************Deck.cs********************************
+*Purpose: Houses the deck of cards and all funtions pertaining to
+*Programmers: Christine Jordan
+*Date Created: [4/24/17]
+*Date Modified: [4/24/17] 
+*********************************************************************/
+using System;
+using System.Collections.Generic;
+{
+    
+}
+public class Deck
+{
+    private enum suit
+    {
+        heart,
+        club,
+        spade,
+        dimond;
+    }
 
-public class Deck : MonoBehaviour {
+    private enum rank
+    {
+        2, 3, 4, 5, 6,
+        7, 8, 9, 10,
+        j, q, k, a;
+    }
 
-	// Use this for initialization
-	void Start () {
+    stack 
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    /****************************Deck()*****************************
+    *In:
+    *Out:
+    *Description
+    ****************************************************************/
+    Deck ()
+    {
+
+    }
 }
